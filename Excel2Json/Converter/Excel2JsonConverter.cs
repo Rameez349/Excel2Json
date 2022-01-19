@@ -1,11 +1,10 @@
 ﻿using ExcelDataReader;
 using Newtonsoft.Json;
-using System;
 using System.Data;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace Excel2Json.Services
+namespace Excel2Json.Converter
 {
     public class Excel2JsonConverter : IExcel2JsonConverter
     {
